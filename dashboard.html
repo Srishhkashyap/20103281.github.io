@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="custom-styles.css">
+</head>
+<body>
+  <div class="dashboard-metrice">
+  <div class="metrices"><h4>Company Metrices</h4></div>
+  <div class="company-metrics">
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-nil font-weight-bold">$406,411.29</p></b>
+        </div>
+        <span class="text-primary">Total Revenue</span>        
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-primary font-weight-bold">$620</p></b>
+        </div>
+        <span class="text-primary">Total Jobs Avg</span>        
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-primary font-weight-bold">655</p></b>
+        </div>
+        <span class="text-primary">Ticket Credited</span>        
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-primary font-weight-bold">735</p></b>
+        </div>
+        <span class="text-primary">Tickets Scheduled</span>        
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-one font-weight-bold">$110,488.8</p></b>
+        </div>
+        <span class="text-primary">Outstanding Amount</span>        
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-primary font-weight-bold">105</p></b>
+        </div>
+        <span class="text-primary">Membership Sold</span>        
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-primary font-weight-bold">436</p></b>
+        </div>
+        <span class="text-primary">Jobs Completed</span>        
+    </div>
+    <div class="card">
+        <div class="card-inner">
+            <b><p class="text-primary font-weight-bold">65</p></b>
+        </div>
+        <span class="text-primary">Total Canceled</span>        
+    </div>
+  </div>
+  </div>
+
+  <div class="revenue-charts">
+    <div class="revenue-chart">
+      <h4>Revenue by Job Location</h4>
+      <div class="chart-container">
+        <canvas id="revenueByLocationChart"></canvas>
+      </div>
+    </div>
+
+    <div class="revenue-chart">
+      <h4>Revenue by Job Type</h4>
+      <div class="chart-container">
+        <canvas id="revenueByJobTypeChart"></canvas>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

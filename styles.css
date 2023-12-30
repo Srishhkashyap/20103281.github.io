@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: rgb(20, 19, 19); 
+    padding: 40px; 
+    font-size: 14px;
+    margin: 10;
+    border-radius: 8px; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: calc(100% - 20px);;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  #password {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+    text-security: disc;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4bc14f; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+    margin-bottom: 16px;
+}
+  
+  .logo {
+    width: 300px; 
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px; 
+    text-decoration: underline; 
+    color: grey; 
+  }
+  
